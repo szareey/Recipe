@@ -1,0 +1,118 @@
+body {
+	width:850px;
+	color: #333333;
+}
+ul{
+	list-style-type: circle;
+}
+.title_image {
+	border-width: 1px;
+	border-color: #333333;
+	float: left;
+	border-radius: 9px;
+}
+li{
+	transition:All .5s ease;
+	padding: 3px;
+}
+li.unbought_items:hover{
+	transform: rotate(0deg) scale(1.15) skew(0deg) translate(45px);
+}
+
+div{
+	border: 1px solid #333333;
+	border-radius: 9px;
+	margin: 9px;
+	
+}
+h1 {
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	font-size: 38px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 36px;
+	padding-left: 410px;
+	text-shadow: 2px 2px #DCDCDC;
+}
+h2 {
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 550;
+	line-height: 23px;
+}
+h3 {
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	font-size: 19px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	text-align: center;
+	max-width: 280px;
+	border: 1px solid #333333;
+	background: #F0FFF0;
+	border-radius: 9px;
+	padding: 5px;
+	transform: rotate(0deg) scale(0.938) skew(-10deg) translate(11px);
+	transition:All 1s ease;
+}
+h3:hover{
+	transform: rotate(360deg) scale(0.994) skew(1deg) translate(0px);
+	
+}
+#title_description {
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 14px;
+	padding-left: 410px;
+	padding-bottom: 124px;
+}
+p {
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 14px;
+}
+#ingredient_note{
+	transition:All .5s ease;
+}
+#ingredient_note:hover{
+	border: 1px solid #333333;
+	border-radius: 12px;
+	background-color: #F0FFF0;
+	padding: 20px;
+}
+#flipping_man {
+	float: right;
+}
+
+.bought_items{
+	text-decoration: line-through;
+}
+.active{
+	transform: rotate(0deg) scale(1.15) skew(0deg) translate(45px);
+	border: 1px solid #333333;
+	border-radius: 12px;
+	background-color: #F0FFF0;
+	padding: 5px;
+}
+#toggleImg{
+	float: right;
+	padding: 10px;
+}
+.showImg{
+	background-color:blue;
+	color: white;
+}
+.hideImg{
+	background-color:white;
+	color: blue;
+}
